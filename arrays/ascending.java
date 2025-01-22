@@ -8,11 +8,6 @@ public class ascending {
         for(int i=0 ; i<10 ;i++){
             StudentMarks[i] = scan.nextInt();
         }
-        // // display
-        // for(int i=0 ; i<10 ;i++){
-        //     System.out.println(StudentMarks[i]);
-        // }
-        //display in ascending order
         for(int i = 0; i < 9; i++)
         {
             for(int j = i+1; j < 10; j++){
