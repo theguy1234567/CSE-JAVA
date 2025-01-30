@@ -50,6 +50,7 @@ class Matrix{
                 System.out.print("Enter element [" + i + "][" + j + "]: ");
                 matrix[i][j]=scan.nextInt();
             }
+            scan.close();
         }
         
     }
@@ -73,5 +74,6 @@ class Matrix{
         }
         return result;
     }
+    
     
 }

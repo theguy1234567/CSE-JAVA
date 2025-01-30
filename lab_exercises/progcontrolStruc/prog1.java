@@ -11,6 +11,9 @@ public class prog1 {
             System.out.println(digit);
             
         }
+        scan.close();
         
     }
+
+    
 }

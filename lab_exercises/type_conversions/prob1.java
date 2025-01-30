@@ -10,6 +10,7 @@ public class prob1 {
             System.out.println("Integer: "+Num);
             System.out.println("Double: "+d_num);
         }
+        scan.close();
     }
 }
     

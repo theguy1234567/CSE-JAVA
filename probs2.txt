@@ -1,0 +1,5 @@
+1.write a java prog that reverses an array and stores it in the same array
+2.program to implement all string methods on the input string
+3.program to reverse the words in a given String 
+4.program that reads a string and replaces all the vowels with "$" symbol
+5.program the counts the no.of occurences of a search String in a given String
