@@ -1,7 +1,7 @@
 // 1.write a java prog that reverses an array and stores it in the same array
 package dailyprobs.two;
 import java.util.Scanner;
-import java.util.Arrays;
+// import java.util.Arrays;
 
 
 
