@@ -1,5 +1,7 @@
 package lab_exercises.arrays;
-
+// John, a data analyst, is working on a project that involves processing 3D matrices. 
+// He needs to create a program that counts the occurrence of a particular element in a 3D matrix across all 2D planes. 
+// Given a 3D array and a specific element to search for, he wants to determine how many times that element appears in the entire 3D matrix.
 import java.util.Scanner;
 
 class MatrixAnalyzer {

@@ -1,5 +1,9 @@
 package lab_exercises.arrays;
+// Alice is given an array of integers and wants to print each unique element from this array exactly once, in the order they first appear. 
 
+
+
+// Design a program to help Alice accomplish this task.
 import java.util.Scanner;
 // You are using Java
 class UniqueElementFinder {

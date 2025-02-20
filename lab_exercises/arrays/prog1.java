@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 class PrimeAnalyzer{
     private boolean isPrime(int num){
         if(num<=1) return false;
