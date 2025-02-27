@@ -1,0 +1,132 @@
+Data Types
+    Primitive Data Types (Simple, Predefined, Fixed Length)
+    -> byte - 1 byte [-128 to 127]
+    -> short - 2 bytes
+    -> int - 4 bytes
+    -> long - 8 bytes
+    -> float - 4 bytes
+    -> double - 8 bytes
+    -> char - 2 bytes (stores a single character)
+    -> boolean - 1 byte (true/false)
+
+Non-Primitive Data Types (Complex, User-Defined, Has Methods)
+    -> String
+    -> Arrays
+    -> ArrayLists
+    -> Vectors
+
+Default Values of Data Types
+    -> byte, short, int, long - 0
+    -> float, double - 0.0
+    -> char - '\u0000' (null character)
+    -> boolean - false
+    -> String, Arrays, ArrayList, Vector - null
+
+String in Java (Immutable)
+    -> String str = "Hello";
+
+    String Methods
+        -> str.length(); - returns length of the string
+        -> str.charAt(index); - returns character at specified index
+        -> str.replace('a', 'b'); - replaces 'a' with 'b'
+        -> str.substring(start, end); - extracts substring (end index not included)
+        -> str.toUpperCase(); - converts string to uppercase
+        -> str.toLowerCase(); - converts string to lowercase
+        -> str.trim(); - removes leading and trailing spaces
+
+    String Conversions
+        -> String.valueOf(10); - converts int to String
+        -> String.valueOf(10.5); - converts double to String
+        -> String.valueOf(true); - converts boolean to String
+        -> char[] ch = str.toCharArray(); - converts String to character array
+
+Arrays in Java
+    -> int[] arr = new int[5]; - declaration of an array
+    -> int[] arr2 = {1, 2, 3, 4, 5}; - initialization
+
+    Array Properties and Methods
+        -> arr.length; - returns length of the array
+        -> Arrays.sort(arr); - sorts the array in ascending order (import java.util.Arrays)
+
+2D Arrays
+    -> int[][] matrix = new int[3][3]; - declaration
+    -> int[][] matrix2 = {{1,2,3},{4,5,6},{7,8,9}}; - initialization
+
+String to Array Conversion
+    -> String str = "Hello";
+    -> char[] charArr = str.toCharArray(); - converts String to char array
+    -> String[] words = str.split(" "); - splits String based on spaces
+
+ArrayList in Java
+    -> import java.util.ArrayList;
+    -> ArrayList<Integer> list = new ArrayList<>();
+
+    ArrayList Methods
+        -> list.add(10); - adds element to list
+        -> list.get(0); - gets element at index 0
+        -> list.set(0, 20); - updates element at index 0
+        -> list.remove(0); - removes element at index 0
+        -> list.size(); - returns size of list
+        -> list.clear(); - removes all elements
+        -> list.contains(10); - checks if element exists
+
+Difference Between Array and ArrayList
+    -> Array has a fixed size, ArrayList is dynamic
+    -> Array can store primitives and objects, ArrayList stores only objects
+    -> Array uses less memory, ArrayList uses more memory
+    -> Array has faster performance, ArrayList is slower due to dynamic resizing
+
+Vectors in Java
+    -> import java.util.Vector;
+    -> Vector<Integer> vec = new Vector<>();
+
+    Vector Methods
+        -> vec.add(10); - adds element to vector
+        -> vec.get(0); - gets element at index 0
+        -> vec.set(0, 20); - updates element at index 0
+        -> vec.remove(0); - removes element at index 0
+        -> vec.size(); - returns size of vector
+
+Difference Between ArrayList and Vector
+    -> ArrayList is not synchronized, Vector is synchronized
+    -> ArrayList is faster, Vector is slower
+    -> ArrayList grows by 50% when resized, Vector grows by 100%
+
+Casting in Java
+    Implicit Casting (Widening)
+        -> int num = 10;
+        -> double numDouble = num; - int to double (automatic)
+
+    Explicit Casting (Narrowing)
+        -> double num2 = 10.5;
+        -> int numInt = (int) num2; - double to int (manual)
+
+Constants in Java
+    -> final int PI = 3.14F; - immutable variable
+
+Operators in Java
+Arithmetic Operators
+-> +, -, *, /, %
+
+Assignment Operators
+-> =, +=, -=, *=, /=, %=
+
+Unary Operators
+-> ++, --
+
+Comparison Operators
+-> ==, !=, >, <, >=, <=
+
+Logical Operators
+-> &&, ||, !
+
+Math Class in Java
+    -> Math.max(5,6); - returns max value
+    -> Math.min(5,6); - returns min value
+    -> Math.random(); - returns random number between 0.0 and 1.0
+
+Bitwise Operations
+    -> x << n - left shift (x * 2^n)
+    -> x >> n - right shift (x / 2^n)
+
+This document covers all essential topics for revision. Good luck with your exam!
