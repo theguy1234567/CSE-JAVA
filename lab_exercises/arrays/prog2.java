@@ -1,4 +1,4 @@
-package lab_exercises.arrays;
+// package lab_exercises.arrays;
 // Amelia is a data analyst who needs to analyze survey responses where participants have
 //  provided ratings ranging from 1 to 25. Her task is to count how many times each
 //   rating occurs in the dataset. 

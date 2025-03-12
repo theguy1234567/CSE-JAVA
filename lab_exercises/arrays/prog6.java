@@ -1,4 +1,4 @@
-package lab_exercises.arrays;
+// package lab_exercises.arrays;
 
 // Emily runs a bakery and tracks the monthly profits and losses of her business over a period of time. She wants to calculate her maximum net profit by removing one continuous subarray (one or more consecutive months) with the highest loss (i.e., the subarray with the smallest sum).
 // However:

@@ -1,4 +1,4 @@
-package lab_exercises.arrays;
+// package lab_exercises.arrays;
 // Tina is organizing her music playlist data where each row of a jagged array represents the durations (in seconds) of songs for a specific playlist. She wants to calculate a weighted sum by multiplying each song's duration by its row index (starting from 1). 
 
 
@@ -17,5 +17,6 @@ public class prog3{
             }
             System.out.println(sum);
         }
+        scan.close();
     }
 }

@@ -1,4 +1,4 @@
-package lab_exercises.arrays;
+// package lab_exercises.arrays;
 // Alice is given an array of integers and wants to print each unique element from this array exactly once, in the order they first appear. 
 
 
