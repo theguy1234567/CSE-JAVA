@@ -8,7 +8,7 @@
 // Write a program to help Amelia generate the frequency 
 // distribution of the given ratings.
 
-import java.util.Arrays;
+// import java.util.Arrays;
 import java.util.Scanner;
 
 class FrequencyCounter {
