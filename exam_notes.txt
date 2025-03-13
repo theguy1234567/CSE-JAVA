@@ -129,4 +129,24 @@ Bitwise Operations
     -> x << n - left shift (x * 2^n)
     -> x >> n - right shift (x / 2^n)
 
+
+oops concepts
+    inheritance
+        ->allows one class (child/subclass) to inherit the properties (fields and methods) of another class (parent/superclass).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This document covers all essential topics for revision. Good luck with your exam!
