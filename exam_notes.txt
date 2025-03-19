@@ -133,6 +133,23 @@ Bitwise Operations
 oops concepts
     inheritance
         ->allows one class (child/subclass) to inherit the properties (fields and methods) of another class (parent/superclass).
+        super class 
+            ->Super Class: The class whose features are inherited is known as superclass(or a base class or a parent class).
+        types of inheritance
+            Single inheritance
+                ->Single Inheritance: In single inheritance, subclasses inherit the features of one superclass. In the image below, class A serves as a base class for the derived class B.
+                
+                (see prob 2 for exp)
+
+            Multilevel inheritance
+                ->Multilevel Inheritance: In Multilevel Inheritance, a derived class will be inheriting a base class and as well as the derived class also act as the base class to other class. 
+
+                (see prob3 for exp)
+
+            Hierarchical Inheritance
+                ->Hierarchical Inheritance: In Hierarchical Inheritance, one class serves as a superclass (base class) for more than one subclass. In the below image, class A serves as a base class for the derived class B, C and D.
+
+                (see prob4 for exp)
 
 
 
